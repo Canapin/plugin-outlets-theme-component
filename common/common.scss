@@ -1,6 +1,6 @@
 .outlet {
-    border: 1px solid #080;
-    background-color: #0c0;
+    border: 1px solid darken($outlet_background_color, 5%);
+    background-color: $outlet_background_color;
     color: #fff;
     padding: 1px;
     text-align: center;
